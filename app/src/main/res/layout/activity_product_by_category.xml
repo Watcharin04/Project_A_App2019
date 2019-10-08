@@ -136,7 +136,7 @@
 
         </LinearLayout>
 
-        <com.bylancer.classified.bylancerclassified.widgets.pulltorefresh.WaveSwipeRefreshLayout
+        <com.rmutt.classified.rubhew.widgets.pulltorefresh.WaveSwipeRefreshLayout
             android:id="@+id/search_pull_to_refresh"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -147,7 +147,7 @@
                 android:layout_height="wrap_content"
                 app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-        </com.bylancer.classified.bylancerclassified.widgets.pulltorefresh.WaveSwipeRefreshLayout>
+        </com.rmutt.classified.rubhew.widgets.pulltorefresh.WaveSwipeRefreshLayout>
 
     </FrameLayout>
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.bylancer.classified.bylancerclassified">
+    package="com.rmutt.classified.rubhew">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -13,7 +13,7 @@
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-    <uses-permission android:name="com.bylancer.classified.bylancerclassified.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.rmutt.classified.rubhew.permission.MAPS_RECEIVE" />
 
     <permission
         android:name="com.example.permission.MAPS_RECEIVE"
@@ -23,7 +23,7 @@
         android:required="true" />
 
     <application
-        android:name=".BylancerClassified"
+        android:name="com.rmutt.classified.rubhew.BylancerClassified"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
@@ -34,7 +34,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".splash.SplashActivity"
+            android:name="com.rmutt.classified.rubhew.splash.SplashActivity"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="stateHidden">
@@ -45,102 +45,102 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".dashboard.DashboardActivity"
+            android:name="com.rmutt.classified.rubhew.dashboard.DashboardActivity"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name=".login.LoginRequiredActivity"
+            android:name="com.rmutt.classified.rubhew.login.LoginRequiredActivity"
             android:excludeFromRecents="true"
             android:theme="@style/MyActivityDialog"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".login.LoginActivity"
+            android:name="com.rmutt.classified.rubhew.login.LoginActivity"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".login.ManualLoginActivity"
+            android:name="com.rmutt.classified.rubhew.login.ManualLoginActivity"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".login.ForgotPasswordActivity"
+            android:name="com.rmutt.classified.rubhew.login.ForgotPasswordActivity"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".login.RegisterUserActivity"
+            android:name="com.rmutt.classified.rubhew.login.RegisterUserActivity"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".dashboard.DashboardProductDetailActivity"
+            android:name="com.rmutt.classified.rubhew.dashboard.DashboardProductDetailActivity"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".login.TermsAndConditionWebView"
+            android:name="com.rmutt.classified.rubhew.login.TermsAndConditionWebView"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".chat.ChatActivity"
+            android:name="com.rmutt.classified.rubhew.chat.ChatActivity"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".settings.MyFavoritesActivity"
+            android:name="com.rmutt.classified.rubhew.settings.MyFavoritesActivity"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".settings.MyPostedProductActivity"
+            android:name="com.rmutt.classified.rubhew.settings.MyPostedProductActivity"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".dashboard.ProductByCategoryActivity"
+            android:name="com.rmutt.classified.rubhew.dashboard.ProductByCategoryActivity"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".uploadproduct.categoryselection.UploadCategorySelectionActivity"
+            android:name="com.rmutt.classified.rubhew.uploadproduct.categoryselection.UploadCategorySelectionActivity"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".uploadproduct.subcategoryselection.UploadSubCategorySelectionActivity"
+            android:name="com.rmutt.classified.rubhew.uploadproduct.subcategoryselection.UploadSubCategorySelectionActivity"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".uploadproduct.postdetails.UploadSelectATitleActivity"
+            android:name="com.rmutt.classified.rubhew.uploadproduct.postdetails.UploadSelectATitleActivity"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".uploadproduct.postdetails.UploadProductDetail"
+            android:name="com.rmutt.classified.rubhew.uploadproduct.postdetails.UploadProductDetail"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".uploadproduct.postdetails.LocationSelectionActivity"
+            android:name="com.rmutt.classified.rubhew.uploadproduct.postdetails.LocationSelectionActivity"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".uploadproduct.postdetails.ProductAdditionalInfoWebview"
+            android:name="com.rmutt.classified.rubhew.uploadproduct.postdetails.ProductAdditionalInfoWebview"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".splash.LanguageSelectionActivity"
+            android:name="com.rmutt.classified.rubhew.splash.LanguageSelectionActivity"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="adjustPan" />
 
-        <activity android:name=".dashboard.locationselector.LocationSelectorActivity"
+        <activity android:name="com.rmutt.classified.rubhew.dashboard.locationselector.LocationSelectorActivity"
             android:screenOrientation="userPortrait"
             android:theme="@style/BylancerTheme"
             android:windowSoftInputMode="adjustPan"/>
@@ -211,7 +211,7 @@
                 android:resource="@xml/file_paths" />
         </provider>
         <service
-            android:name=".notification.MyFirebaseMessagingService"
+            android:name="com.rmutt.classified.rubhew.notification.MyFirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />

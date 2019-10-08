@@ -7,12 +7,12 @@
 
     <activity
         android:id="@+id/dashboardActivity"
-        android:name="com.bylancer.classified.bylancerclassified.dashboard.DashboardActivity"
+        android:name="com.rmutt.classified.rubhew.dashboard.DashboardActivity"
         android:label="DashboardActivity" />
 
     <fragment
         android:id="@+id/dashboardFragment"
-        android:name="com.bylancer.classified.bylancerclassified.dashboard.DashboardFragment"
+        android:name="com.rmutt.classified.rubhew.dashboard.DashboardFragment"
         android:label="fragment_dashboard"
         tools:layout="@layout/fragment_dashboard"/>
 

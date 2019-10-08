@@ -288,7 +288,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/settings_country_text" >
 
-                    <com.bylancer.classified.bylancerclassified.jrizani.jrspinner.JRSpinner
+                    <com.rmutt.classified.rubhew.jrizani.jrspinner.JRSpinner
                         android:id="@+id/settings_country_spinner"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -355,7 +355,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/settings_state_text" >
 
-                    <com.bylancer.classified.bylancerclassified.jrizani.jrspinner.JRSpinner
+                    <com.rmutt.classified.rubhew.jrizani.jrspinner.JRSpinner
                         android:id="@+id/settings_state_spinner"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -422,7 +422,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/settings_city_text" >
 
-                    <com.bylancer.classified.bylancerclassified.jrizani.jrspinner.JRSpinner
+                    <com.rmutt.classified.rubhew.jrizani.jrspinner.JRSpinner
                         android:id="@+id/settings_city_spinner"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -489,7 +489,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/settings_language_text" >
 
-                    <com.bylancer.classified.bylancerclassified.jrizani.jrspinner.JRSpinner
+                    <com.rmutt.classified.rubhew.jrizani.jrspinner.JRSpinner
                         android:id="@+id/settings_language_spinner"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

@@ -61,7 +61,7 @@
         android:paddingEnd="@dimen/margin_fifteen"
         android:fontFamily="@font/roboto_condensed_italic" />
 
-    <com.bylancer.classified.bylancerclassified.widgets.pulltorefresh.WaveSwipeRefreshLayout
+    <com.rmutt.classified.rubhew.widgets.pulltorefresh.WaveSwipeRefreshLayout
         android:id="@+id/dashboard_pull_to_refresh"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
@@ -144,6 +144,6 @@
 
         </androidx.core.widget.NestedScrollView>
 
-    </com.bylancer.classified.bylancerclassified.widgets.pulltorefresh.WaveSwipeRefreshLayout>
+    </com.rmutt.classified.rubhew.widgets.pulltorefresh.WaveSwipeRefreshLayout>
 
 </LinearLayout>

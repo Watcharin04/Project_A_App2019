@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">QuickAd Classified</string>
+    <string name="app_name">Rubhew</string>
     <string name="divider_for_splash">--------------------------X--------------------------</string>
     <string name="search_text">What are you looking for?</string>
     <string name="motors">Motors</string>
@@ -108,7 +108,7 @@
     <string name="share_using">Share using</string>
     <string name="title_activity_maps">Map</string>
     <string name="select_country">Select country</string>
-    <string name="default_country">United State</string>
+    <string name="default_country">ประเทศไทย</string>
     <string name="select_state">Select state</string>
     <string name="select_city">Select city</string>
     <string name="select_language">Select language</string>
@@ -126,19 +126,20 @@
     <string name="some_wrong_retry">Some thing went wrong, please restart the upload process.</string>
     <string name="map_initializing">Please wait, map is getting initialized</string>
     <string name="posted_by_you">This product belong to you.</string>
-    <string name="facebook_app_id">2244587745860156</string>
-    <string name="fb_login_protocol_scheme">fb2244587745860156</string>
     <string name="privacy_policy">"By signing up you agree to our Terms &amp; Conditions and Privacy Policy"</string>
     <string name="privacy_text">"Privacy Policy"</string>
     <string name="default_notification_channel_id">"1009876676335"</string>
     <string name="default_notification_channel_name">"9883345445653"</string>
-    <string name="default_notification_topic">"QuickAdClassified"</string>
+    <string name="default_notification_topic">"Rubhew"</string>
 
+
+    <string name="facebook_app_id">475054353039172</string>
+    <string name="fb_login_protocol_scheme">fb475054353039172</string>
 
     <!-- AD CONFIG -->
-    <string name="ad_mob_banner">"ca-app-pub-6370111532336036~5661435384"</string>
-    <string name="ad_mob_banner_ad_unit">"ca-app-pub-6370111532336036/4512005249"</string>
-    <string name="ad_mob_interstitial_ad_unit">"ca-app-pub-6370111532336036/7079943350"</string>
+    <string name="ad_mob_banner">"ca-app-pub-8967121812261630~5725196714"</string>
+    <string name="ad_mob_banner_ad_unit">"ca-app-pub-8967121812261630/9191806618"</string>
+    <string name="ad_mob_interstitial_ad_unit">"ca-app-pub-8967121812261630/6526114824"</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

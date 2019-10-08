@@ -1,42 +1,71 @@
 {
   "project_info": {
-    "project_number": "270782395282",
-    "firebase_url": "https://bylancer-classified.firebaseio.com",
-    "project_id": "bylancer-classified",
-    "storage_bucket": "bylancer-classified.appspot.com"
+    "project_number": "220383170516",
+    "firebase_url": "https://rubhew-a1433.firebaseio.com",
+    "project_id": "rubhew-a1433",
+    "storage_bucket": "rubhew-a1433.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:270782395282:android:72c1811af5549e34",
+        "mobilesdk_app_id": "1:220383170516:android:038b66ba553d47c8a31041",
         "android_client_info": {
-          "package_name": "com.bylancer.classified.bylancerclassified"
+          "package_name": "com.rmutt.classified.rubhew"
         }
       },
       "oauth_client": [
         {
-          "client_id": "270782395282-oo2n02t0l86io092h0b8raaeokej3qad.apps.googleusercontent.com",
+          "client_id": "220383170516-q56dnm8ahm8r21pevej7l29sgqhvs1j6.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.bylancer.classified.bylancerclassified",
-            "certificate_hash": "5eb79db057fee42c2ffa3b2208aa14731709f750"
+            "package_name": "com.rmutt.classified.rubhew",
+            "certificate_hash": "477927fffbc6b7b371c45f37dd637d77fc17f407"
           }
         },
         {
-          "client_id": "270782395282-s6ttr509l2uqgbfvm795prd6kgju9cqt.apps.googleusercontent.com",
+          "client_id": "220383170516-688jn7suucmtta02ao9orv8790cc6op4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC0-OM0ewp9bzbOaTS4DwvWcRnDfPdXuiU"
+          "current_key": "AIzaSyA4GyIvt4HuWj1HzZvMI9DokKueQ4kvpro"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "270782395282-s6ttr509l2uqgbfvm795prd6kgju9cqt.apps.googleusercontent.com",
+              "client_id": "220383170516-00ro95hk3g11u1r11f32fnaikkm35n5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220383170516:android:fba26b493d1f2a16a31041",
+        "android_client_info": {
+          "package_name": "com.rmutt.rubhews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220383170516-688jn7suucmtta02ao9orv8790cc6op4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4GyIvt4HuWj1HzZvMI9DokKueQ4kvpro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220383170516-00ro95hk3g11u1r11f32fnaikkm35n5u.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

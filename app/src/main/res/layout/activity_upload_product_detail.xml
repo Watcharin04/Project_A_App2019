@@ -248,7 +248,7 @@
                 android:theme="@style/TextLabel"
                 android:background="@drawable/rounded_title_selection_edit_text_states">
 
-                <com.bylancer.classified.bylancerclassified.jrizani.jrspinner.JRSpinner
+                <com.rmutt.classified.rubhew.jrizani.jrspinner.JRSpinner
                     android:id="@+id/upload_detail_enter_country_edit_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -279,7 +279,7 @@
                 android:theme="@style/TextLabel"
                 android:background="@drawable/rounded_title_selection_edit_text_states">
 
-                <com.bylancer.classified.bylancerclassified.jrizani.jrspinner.JRSpinner
+                <com.rmutt.classified.rubhew.jrizani.jrspinner.JRSpinner
                     android:id="@+id/upload_detail_enter_state_edit_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -311,7 +311,7 @@
                 android:theme="@style/TextLabel"
                 android:background="@drawable/rounded_title_selection_edit_text_states">
 
-                <com.bylancer.classified.bylancerclassified.jrizani.jrspinner.JRSpinner
+                <com.rmutt.classified.rubhew.jrizani.jrspinner.JRSpinner
                     android:id="@+id/upload_detail_enter_city_edit_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

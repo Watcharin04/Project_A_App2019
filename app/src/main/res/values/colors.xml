@@ -6,8 +6,8 @@
     <color name="black_background">#00000000</color>
     <color name="theme_color_old">#E36048</color>
     <color name="theme_color_dark_old">#E36048</color>
-    <color name="theme_color">#ED1C24</color>
-    <color name="theme_color_dark">#de1219</color>
+    <color name="theme_color">#E36048</color>
+    <color name="theme_color_dark">#E36048</color>
     <color name="blue_background">#1171FC</color>
 
     <color name="toolbar_background">#80000000</color>
@@ -59,7 +59,7 @@
     <color name="swipe_refresh_orange">#B3FFBB33</color>
     <color name="drak_gray">#ff888888</color>
     <color name="silver">#C0C0C0</color>
-    <color name="red">#FF0000</color>
+    <color name="red">#E36048</color>
     <color name="login_green">#61AE7D</color>
     <color name="orange">#ff5a00</color>
     <color name="login_alert_color">#F7F7F9</color>
@@ -70,7 +70,7 @@
     <color name="search_detail_color">#A9AAAF</color>
     <color name="accepted_green">#B399CC00</color>
     <color name="taken_white">#B3ffffff</color>
-    <color name="denied_red">#CA0009</color>
+    <color name="denied_red">#FF5722</color>
     <color name="waiting_yellow">#B3ffff00</color>
     <color name="dark_green">#006400</color>
 
