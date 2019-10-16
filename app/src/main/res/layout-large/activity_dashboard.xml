@@ -20,13 +20,14 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation_menu"
         android:layout_width="wrap_content"
-        android:layout_height="@dimen/bottom_navigation_bar_height"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:labelVisibilityMode="unlabeled"
         app:itemIconTint="@color/bottom_navigation_menu_color"
         app:menu="@menu/bottom_nav_menu" />
+<!--    android:layout_height="@dimen/bottom_navigation_bar_height"-->
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         style="@style/Widget.MaterialComponents.FloatingActionButton"

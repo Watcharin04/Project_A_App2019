@@ -154,6 +154,7 @@ class DashboardProductDetailActivity: BylancerBuilderActivity(), Callback<Dashbo
         parent_scroll_view.visibility = View.VISIBLE
         if(dashboardDetailModel.productImages != null && dashboardDetailModel.productImages!!.size > 0 && dashboardDetailModel.originalImagesPath != null) {
             product_detail_image_view_pager.adapter = ProductDetailViewPagerAdapter(this, dashboardDetailModel.productImages!!, dashboardDetailModel.originalImagesPath!!)
+
         }
 
         if(SessionState.instance.isLoggedIn) {
