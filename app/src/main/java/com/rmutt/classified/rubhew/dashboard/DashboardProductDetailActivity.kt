@@ -46,6 +46,8 @@ import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.Marker
 import com.facebook.ads.*;
 import com.google.android.gms.maps.model.MarkerOptions
+import com.rmutt.classified.rubhew.webservices.chat.ChatSentStatus
+import kotlinx.android.synthetic.main.activity_chat.*
 import kotlinx.android.synthetic.main.activity_dashboard_product_detail.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -501,7 +503,7 @@ class DashboardProductDetailActivity: BylancerBuilderActivity(), Callback<Dashbo
             makeAnOfferData.ownerName = getFormattedValue(mDashboardDetailModel?.sellerName)
             makeAnOfferData.productId = getFormattedValue(mDashboardDetailModel?.productId)
             makeAnOfferData.productName = getFormattedValue(mDashboardDetailModel?.title)
-            makeAnOfferData.userId = getFormattedValue(mDashboardDetailModel?.sellerEmail)
+            makeAnOfferData.userId = getFormattedValue(mDashboardDetailModel?.sellerId)
             makeAnOfferData.type = "make_offer"
             makeAnOfferData.senderId = SessionState.instance.userId
             makeAnOfferData.senderName = SessionState.instance.displayName
@@ -518,6 +520,7 @@ class DashboardProductDetailActivity: BylancerBuilderActivity(), Callback<Dashbo
                 }
 
             })
+
         }
     }
 
