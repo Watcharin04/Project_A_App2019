@@ -1,9 +1,11 @@
 package com.rmutt.classified.rubhew.alarm
 
+import android.content.Context
 import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import com.rmutt.classified.rubhew.R
 import com.rmutt.classified.rubhew.utils.ColorCircleDrawable
 import com.rmutt.classified.rubhew.webservices.notificationmessage.NotificationDataModel
@@ -34,5 +36,6 @@ class NotificationMessageAdapter(val mNotificationMessageListModel: List<Notific
         internal var notificationMessage = view.notification_message_text_view
         internal var notificationMessageSenderName = view.notification_sender_name
         internal var notificationMessageSenderNameFirstLetter = view.notification_sender_name_circular_first_name
+
     }
 }

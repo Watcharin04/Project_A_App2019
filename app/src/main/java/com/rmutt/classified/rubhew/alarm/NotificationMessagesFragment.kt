@@ -1,6 +1,8 @@
 package com.rmutt.classified.rubhew.alarm
 
 import android.os.Bundle
+import android.view.View
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.rmutt.classified.rubhew.R
 import com.rmutt.classified.rubhew.fragments.BylancerBuilderFragment
@@ -26,6 +28,7 @@ class NotificationMessagesFragment : BylancerBuilderFragment(), Callback<List<No
 
         recycler_view_notification_alarm_message_list.setHasFixedSize(false)
         recycler_view_notification_alarm_message_list.layoutManager = LinearLayoutManager(context)
+
         fetchNotificationList()
     }
 

@@ -82,7 +82,7 @@ interface WebServiceApiInterface {
     @GET(AppConstants.FETCH_LANGUAGE_PACK_URL)
     fun fetchLanguagePack(): Call<List<LanguagePackModel>>
 
-    @GET(AppConstants.MAKE_AN_OFFER)
+    @POST(AppConstants.MAKE_AN_OFFER)
     fun makeAnOffer(@Query("OwnerId") ownerId:String, @Query("message") message:String, @Query("SenderId") senderId:String, @Query("SenderName") senderName:String, @Query("OwnerName") ownerName:String,
                     @Query("email") email:String,  @Query("subject") subject:String,  @Query("productTitle") productName:String, @Query("type") type:String, @Query("productId") productId:String): Call<MakeAnOfferStatus>
 

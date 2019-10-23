@@ -48,7 +48,7 @@ class ChatActivity : BylancerBuilderActivity(), View.OnClickListener, Callback<L
         }
     }
 
-    private fun getChatMessages() {
+    fun getChatMessages() {
         if (isConnectionSuccess) {
             if (isFirstTime) {
                 chat_sliding_progress_indicator.visibility = View.VISIBLE

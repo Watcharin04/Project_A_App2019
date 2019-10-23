@@ -10,7 +10,7 @@ android {
         applicationId "com.rmutt.classified.rubhew"
         minSdkVersion 21
         targetSdkVersion 29
-        versionCode 10
+        versionCode 11
         versionName "10.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
